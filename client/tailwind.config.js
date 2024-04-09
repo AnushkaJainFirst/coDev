@@ -11,7 +11,9 @@ export default {
                 danger: "#ef4444",
             },
             fontFamily: {
-                poppins: ["Poppins", "sans-serif"],
+                poppins: ["sans-serif","Poppins"],
+                roboto: ["Roboto", "sans-serif"],
+                openSans: ["Open Sans", "sans-serif"],
             },
             animation: {
                 "up-down": "up-down 2s ease-in-out infinite alternate",
