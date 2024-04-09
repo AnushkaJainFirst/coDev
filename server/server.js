@@ -115,5 +115,5 @@ app.get("/", (req, res) => {
 })
 
 server.listen(PORT, () => {
-    console.log(`Listening on port ${PORT}`)
+    console.log("Listening on port ${PORT}")
 })
