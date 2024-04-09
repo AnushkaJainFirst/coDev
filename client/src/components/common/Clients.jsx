@@ -33,7 +33,7 @@ const Client = ({ client }) => {
             </p>
             <div
                 className={`absolute right-5 top-0 h-3 w-3 rounded-full ${
-                    status === ACTIONS.ONLINE ? "bg-green-500" : "bg-danger"
+                    status === ACTIONS.ONLINE ? "bg-yellow-300" : "bg-danger"
                 }`}
             ></div>
         </div>

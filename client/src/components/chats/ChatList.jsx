@@ -32,7 +32,7 @@ function ChatList() {
 
     return (
         <div
-            className="flex-grow overflow-auto rounded-md border-t-4 border-primary bg-darkHover p-2"
+            className="flex-grow overflow-auto rounded-md border-t-4 border-yellow-200 bg-darkHover p-2"
             ref={messagesContainerRef}
             onScroll={handleScroll}
         >
@@ -47,7 +47,7 @@ function ChatList() {
                         }
                     >
                         <div className="flex justify-between">
-                            <span className="text-xs text-primary">
+                            <span className="text-xs text-amber-300">
                                 {message.username}
                             </span>
                             <span className="text-xs text-white">

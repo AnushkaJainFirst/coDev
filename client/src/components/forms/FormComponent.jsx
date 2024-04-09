@@ -58,17 +58,17 @@ function FormComponent() {
     }, [location.state?.roomId, usernameInContext])
 
     return (
-        <div className="flex w-full max-w-[500px] flex-col items-center justify-center gap-4 p-4 sm:w-[500px] sm:p-8">
-            <h1 className="text-4xl sm:text-5xl">Code Sync</h1>
-            <p className="mb-4 text-center md:mb-8">
-                {"Code, Chat, Collaborate. It's All in Sync."}
+        <div className="flex w-full max-w-[500px] flex-col items-center justify-center gap-4 p-4 sm:w-[500px] sm:p-8 bg-sky-950 rounded-xl border-8 border-white">
+            <h1 className="text-4xl sm:text-5xl text-pink-300 font-bold">CoDev</h1>
+            <p className="mb-4 text-center md:mb-8 text-yellow-300">
+                {"Code, Chat, Collaborate."}
             </p>
             <form onSubmit={joinRoom} className="flex w-full flex-col gap-4">
                 <input
                     type="text"
                     name="roomId"
                     placeholder="ROOM Id"
-                    className="w-full rounded-md border border-gray-500 bg-darkHover px-3 py-3 focus:outline-none"
+                    className="w-full rounded-md border border-yellow-500 border-4 bg-zinc-300 px-3 py-3 focus:outline-none text-black"
                     onChange={(e) => setRoomId(e.target.value)}
                     value={roomId}
                 />
@@ -76,14 +76,14 @@ function FormComponent() {
                     type="text"
                     name="username"
                     placeholder="USERNAME"
-                    className="w-full rounded-md border border-gray-500 bg-darkHover px-3 py-3 focus:outline-none"
+                    className="w-full rounded-md border border-yellow-500 border-4 bg-zinc-300 px-3 py-3 focus:outline-none text-black"
                     onChange={(e) => setUsername(e.target.value)}
                     value={username}
                     ref={usernameRef}
                 />
                 <button
                     type="submit"
-                    className="mt-2 w-full rounded-md bg-primary px-8 py-3 text-lg font-semibold text-black"
+                    className="mt-2 w-full rounded-md bg-pink-300 px-8 py-3 text-lg font-semibold text-black"
                     onClick={joinRoom}
                 >
                     Join
