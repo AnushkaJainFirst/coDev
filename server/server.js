@@ -7,7 +7,12 @@ const ACTIONS = require("./utils/actions")
 
 app.use(express.json())
 
-app.use(cors())
+app.use(cors({
+	origin: "https://co-dev-one.vercel.app/", 
+	methods: ["GET", "POST"], 
+	allowedHeaders: ["Content-Type", "Authorization"],
+	credentials: true, 
+}));
 
 const { Server } = require("socket.io")
 
@@ -107,7 +112,7 @@ io.on("connection", (socket) => {
 	})
 })
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 10000
 
 app.get("/", (req, res) => {
 	res.send("API is running successfully")
