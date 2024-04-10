@@ -54,7 +54,7 @@ body {
 
 .cm-editor .cm-scroller {
     font-family: "Space Mono", monospace;
-    min-height: 100vh; /* Set horizontal scrollbar at bottom*/
+    min-height: 100vh; 
 }
 
 select {

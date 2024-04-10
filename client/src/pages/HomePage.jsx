@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react"
 import hello from "../assets/hello.jpeg"
 import FormComponent from "../components/forms/FormComponent"
-// import Footer from "../components/common/Footer";
 
 function HomePage() {
     const [isLoaded, setIsLoaded] = useState(false)
@@ -25,7 +24,7 @@ function HomePage() {
                     {isLoaded && (
                         <img
                             src={hello}
-                            alt="Code Sync Illustration"
+                            alt="CoDev Illustration"
                             className="mx-auto w-[250px] sm:w-[400px]"
                         />
                     )}
@@ -34,7 +33,6 @@ function HomePage() {
                     <FormComponent />
                 </div>
             </div>
-            {/* <Footer /> */}
         </div>
     )
 }

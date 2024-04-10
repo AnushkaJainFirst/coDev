@@ -1,15 +1,8 @@
-# Code Sync - A Realtime Code Editor
+# CoDev - A Realtime Editor
 
 ![screenshot](./screenshots/preview.png)
 
-Code Sync is a collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
-
-![GitHub contributors](https://img.shields.io/github/contributors/sahilatahar/Code-Sync?style=for-the-badge&color=48bf21)
-![GitHub Repo stars](https://img.shields.io/github/stars/sahilatahar/Code-Sync?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/sahilatahar/Code-Sync?style=for-the-badge&color=d7af2d)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/sahilatahar/Code-Sync?style=for-the-badge&color=f47373)
-![GitHub License](https://img.shields.io/github/license/sahilatahar/Code-Sync?style=for-the-badge&color=e67234)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsahilatahar%2FCode-Sync&label=Repo%20Views&countColor=%2337d67a&labelStyle=upper)
+CoDev is a collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
 
 ## 🔮 Features
 
@@ -29,7 +22,7 @@ Code Sync is a collaborative, real-time code editor where users can seamlessly c
 
 ## 🚀 Live Preview
 
-You can view the live preview of the project [here](https://code-sync-live.vercel.app/).
+You can view the live preview of the project [here](https://co-dev-one.vercel.app/).
 
 ## 💻 Tech Stack
 
@@ -195,20 +188,6 @@ README.md
 -   **Admin Permission:** Implement an admin permission system to manage user access levels and control over certain platform features.
 -   **Search and Replace:** Implement a search and replace functionality for efficient code navigation.
 
-## 🤝 Contribute
-
-We welcome contributions to make Code Sync even better! Whether you're reporting a bug, suggesting a new feature, or fixing a typo, your input is valuable to us. Follow the [contribution guidelines](CONTRIBUTING.md) to get started.
-
-## 🌟 Support Us
-
-If you find this helpful or valuable, please consider 🌟 starring the repository. It helps us gain visibility and encourages further development. We appreciate your support!
-
 ## 🧾 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## ✍️ About Developer
-
--   Sahil Atahar (Aspiring Full Stack Developer)  
-     [![GitHub](https://img.shields.io/badge/GitHub-100000.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahilatahar)
-    [![LinkedIn-social](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sahilatahar)
