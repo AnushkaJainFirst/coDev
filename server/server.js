@@ -8,7 +8,7 @@ const ACTIONS = require("./utils/actions")
 app.use(express.json())
 
 app.use(cors({
-    origin: "https://co-dev-one.vercel.app",
+    origin: "https://co-dev-one.vercel.app/editor/",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
