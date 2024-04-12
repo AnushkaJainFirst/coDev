@@ -81,10 +81,18 @@ You can view the live preview of the project [here](https://co-dev-one.vercel.ap
     http://localhost:5173/
     ```
 
-## 🔮 Features for next release
+## 🔮 Future Enhancements:
+**1) Terminal Integration:**
+   - Access a terminal within the editor to view code output, enhancing the development experience.
 
--   **Admin Permission:** Implement an admin permission system to manage user access levels and control over certain platform features.
--   **Search and Replace:** Implement a search and replace functionality for efficient code navigation.
+**2) Collaboration Tools:**
+   - Introduce a whiteboard and video calling feature within the editor room, facilitating real-time communication and brainstorming.
+
+**3) Autocompletion:**
+   - Implement an autocompletion feature, inspired by Copilot, to assist developers with code suggestions and enhancements.
+
+**4) GitHub Integration:**
+   - Enable direct integration with GitHub, allowing seamless code pushing from the editor room without the need for external IDEs like VSCode.
 
 ## 🧾 License
 
