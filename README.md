@@ -1,6 +1,6 @@
 # CoDev - A Realtime Editor
 
-![screenshot](./preview.png)
+![screenshot](./screenshots/preview.png)
 
 CoDev is a collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
 
@@ -97,7 +97,7 @@ You can view the live preview of the project [here](https://co-dev-one.vercel.ap
 
 ## 📈 Roadmap
 
-![screenshot](./roadmap.jpeg)
+![screenshot](./screenshots/roadmap.jpeg)
 
 
 ## 🧾 License
