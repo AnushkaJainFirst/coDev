@@ -94,6 +94,12 @@ You can view the live preview of the project [here](https://co-dev-one.vercel.ap
 **4) GitHub Integration:**
    - Enable direct integration with GitHub, allowing seamless code pushing from the editor room without the need for external IDEs like VSCode.
 
+
+## 📈 Roadmap
+
+![screenshot](./roadmap.jpeg)
+
+
 ## 🧾 License
 
 This project is licensed under the [MIT License](LICENSE).
